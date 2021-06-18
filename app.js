@@ -1,7 +1,7 @@
 console.log("This is app file");
 document.querySelector("#get-joke").addEventListener("click",()=>{
 let xhr = new XMLHttpRequest();
- xhr.open("GET","https://api.chucknorris.io/jokes/random1",true);
+ xhr.open("GET","https://api.chucknorris.io/jokes/random",true);
 xhr.onprogress=function(){
     console.log("onProgress");
 }
